@@ -1,0 +1,246 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 100px;
+    overflow-y: scroll;
+}
+
+header>div>nav{
+    display: flex;
+    gap: 50px;
+    
+}
+header>div>nav>a{
+    text-decoration:none;
+    color: black;
+}
+header>div>nav>a:hover{
+    color: gray;
+}
+#sec1{
+    background-image:url("https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510764242245-JIWZSYBY8CYHZBOEUGAM/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg") ;
+    height: 500px;
+    width: auto; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}   
+#sec1>h2{
+    border: 2px transparent;
+    background-color: white;
+    opacity: 0.6;
+    display: inline-block;
+    padding: 10px;    
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+#sec1>p{
+    border: 2px transparent;
+    background-color: white;
+    opacity: 0.7;
+    padding: 10px;    
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 100px;
+
+}
+#sec1>i{
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 50px;
+      margin-left: 600px;
+}
+#sec1>i:hover{
+opacity: 0;
+}
+#sec1>b{
+    color:white;
+    display: inline-block;
+    margin-left: 550px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    opacity: 0;
+
+}
+#sec1>b:hover{
+    opacity: 1;
+}
+#sec2{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    background-image: url();
+}
+#sec2>p{
+    align-items: center;
+    margin-left: 200px;
+}
+#sec2>h1{
+  margin-left: 200px;
+}
+
+#sec3{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510765722553-76QEADJUAJRSEYMGLNSA/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg?format=2500w    );
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#sec3>p{
+    background-color: white;
+    opacity: 0.6;
+    display: inline-block;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 30px;
+    padding: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 700px;
+
+
+}
+#sec4>p{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 100px;
+
+}
+#sec4>h2{
+    padding-left: 150px;
+    margin-top: 100px;
+    padding-right: 150px;
+}
+#sec5{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510767064224-MG3QKU4EG3Y4TCIEHUZQ/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg?format=1500w    );
+    height: 500px;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#sec5>p{
+    background-color: white;
+    opacity: 0.6;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+#sec6>p{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 100px;
+}
+#sec6>h2{
+    padding-left: 150px;
+    margin-top: 100px;
+    padding-right: 150px;
+}
+#sec7{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1511367750555-BQMOKM1VBYO8IKWMX44W/1040.JPG?format=1500w");
+    height: 500px;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+
+  
+}
+#sec7>p{
+    background-color: gray;
+    opacity: 0.6;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    border: 20px solid white;
+
+}
+#sec8>div{
+    display: inline-block;
+    text-align: left;
+   padding: 100px;
+
+
+}
+#sec9{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510767064224-MG3QKU4EG3Y4TCIEHUZQ/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg?format=1500w);
+    height: 500px;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#sec9>p{
+    background-color: white;
+    opacity: 0.6;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+#sec10>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 100px;
+}
+#sec10>div>div>img{
+    height: 200px;
+    width: 300px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    gap: 100px;
+    height: 150px;
+    width: auto;
+    align-items: center;
+    padding-left: 100px;
+    margin-bottom: 200px;
+    position: relative;
+}
+footer>div>a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+footer>pre{
+    color: white;
+}
+footer>div>#pp{
+    position: absolute;
+    margin-left: 500px;
+    top: 0px;
+    z-index: 1;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
